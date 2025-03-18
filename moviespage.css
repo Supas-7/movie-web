@@ -1,0 +1,70 @@
+body{
+  background-color:rgb(7, 7, 27);
+
+}
+.header{
+  height: 50px;
+  background-color: rgb(7, 7, 44);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ font-family: Arial;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.title{
+  margin-left: 10px;
+  font-weight: bolder;
+  color:whitesmoke;
+
+ 
+}
+
+.search1{
+  height: 30px;
+  border: none;
+  border-radius: 12px;
+  margin-right: 10px;
+  background-color: rgb(7, 7, 27); 
+}
+
+input::placeholder{
+  font-size:13px;
+}
+  
+
+
+.thumbnails{
+  background-color:rgb(7, 7, 44);
+  width: 180px;
+  margin-top: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+ 
+
+}
+
+.movies-thumb{
+  margin-top:10px;
+  height: 90%;
+  border-radius: 10px;
+  height: 200px ;
+ 
+}
+
+.movie-title{
+  color: white;
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: -5px;
+  font-weight: bold;
+}
