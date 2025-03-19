@@ -47,6 +47,12 @@ input::placeholder{
   gap: 20px;
   padding: 20px;
 }
+.movies-thumb:hover {
+  transform: translateY(-10px);;
+}
+.movie-title:hover{
+  transform: translateY(-10px);;
+}
   
 
 
