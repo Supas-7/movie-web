@@ -32,6 +32,8 @@ function showMovies() {
           <p class="movie-title">${movieCard.title}</p>
         </div>
       </div>
+      
+      
     `;
   });
 
@@ -48,5 +50,6 @@ searchInput.addEventListener('keypress', (event) => {
       returnMovies(SEARCHAPI + searchTerm);
       
     }
+    searchInput.value = '';
   }
 });

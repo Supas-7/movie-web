@@ -20,6 +20,11 @@ body{
   margin-left: 10px;
   font-weight: bolder;
   color:whitesmoke;
+  font-size: medium;
+  
+  background-color: rgb(7, 7, 44);
+  border: none;
+  cursor: pointer;
 
  
 }
@@ -35,6 +40,12 @@ body{
 
 input::placeholder{
   font-size:13px;
+}
+.js-movie-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
   
 
