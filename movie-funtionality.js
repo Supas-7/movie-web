@@ -26,6 +26,7 @@ function showMovies() {
 
   movieCards.forEach(movieCard => {
     html += `
+      
       <div class="movie-details">
         <div class="thumbnails">
           <img src="${movieCard.image}" class="movies-thumb">
@@ -35,9 +36,11 @@ function showMovies() {
       
       
     `;
+
   });
 
   document.querySelector('.js-movie-card').innerHTML = html;
+
 }
 
 
